@@ -20,14 +20,23 @@ const Title = styled.div`
     font-weight: bolder;
   }
 `
+
+
+// 横线的样式
+const Hr = styled.hr`
+    width: 800px;
+    border: 1px solid black;
+`
+
+
 const ContactPage = () => {
     return (
         <Layout>
-            <div>contact</div>
+            {/*<div>contact</div>*/}
             <Logo src={imgLogo}></Logo>
             <Title>
                 <li>联系我们</li>
-                <hr/>
+                <Hr/>
             </Title>
         </Layout>
     );
