@@ -2,6 +2,7 @@ import * as React from "react";
 import Layout from "../components/layout";
 import styled from "styled-components";
 import imgLogo from "../images/adorn/logo-b.png";
+import aboutImg from "../images/about/01.png";
 
 const Logo = styled.img`
   position: absolute;
@@ -42,20 +43,11 @@ const BodyText = styled.div`
   }
 `
 
-const SubTitle = styled.div`
+const SubTitle = styled.img`
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 30%;
-  writing-mode: tb-rl;
-  
-  div{
-    font-weight: bolder;
-    writing-mode: tb-rl;
-    border: solid 1px black;
-    padding: 5px;
-    border-radius: 5px;
-    margin-right: 30px;
-  }
+  width: 950px;
   
 `
 
@@ -89,14 +81,8 @@ const AboutPage = () => {
                     极力的协助客户提高肉源品质，并凭可靠优质的服务受到了广大客户的欢迎和认可。在最大限度上保证广大顾客的食品安全.
                 </li>
             </BodyText>
-            <SubTitle>
-                <div>
-                    公司理念
-                </div>
 
-                <div>
-                    业务范围
-                </div>
+            <SubTitle src={aboutImg}>
 
             </SubTitle>
         </Layout>
