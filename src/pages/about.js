@@ -51,16 +51,6 @@ const SubTitle = styled.img`
   
 `
 
-// const Chart = styled.div`
-//   writing-mode: tb-rl;
-//
-//   li{
-//     list-style: none;
-//
-//   }
-//
-// `
-
 const AboutPage = () => {
     return (
         <Layout>
