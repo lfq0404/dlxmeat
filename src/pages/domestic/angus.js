@@ -1,7 +1,7 @@
 import * as React from "react";
 import Layout from "../../components/layout";
 
-const ImportPage = () => {
+const AngusPage = () => {
     return (
         <Layout>
             <div>import</div>
@@ -9,4 +9,4 @@ const ImportPage = () => {
     );
 };
 
-export default ImportPage;
+export default AngusPage;
