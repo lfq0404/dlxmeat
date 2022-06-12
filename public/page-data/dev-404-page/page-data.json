@@ -1,6 +1,6 @@
 {
-    "componentChunkName": "component---cache-dev-404-page-js",
-    "path": "/dev-404-page/",
+  "componentChunkName": "component---cache-dev-404-page-js",
+  "path": "/dev-404-page/",
   "result": {
     "data": {
       "allSiteFunction": {
@@ -24,14 +24,24 @@
             "path": "/"
           },
           {
+            "path": "/import/"
+          },
+          {
+            "path": "/domestic/angus/"
+          },
+          {
             "path": "/domestic/"
           },
           {
-            "path": "/import/"
+            "path": "/domestic/style/"
+          },
+          {
+            "path": "/domestic/wagyu/"
           }
         ]
       }
     },
     "pageContext": {}
   },
-    "staticQueryHashes": []}
+  "staticQueryHashes": []
+}
