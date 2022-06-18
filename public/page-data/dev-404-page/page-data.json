@@ -24,9 +24,6 @@
             "path": "/"
           },
           {
-            "path": "/import/"
-          },
-          {
             "path": "/domestic/angus/"
           },
           {
@@ -37,6 +34,27 @@
           },
           {
             "path": "/domestic/wagyu/"
+          },
+          {
+            "path": "/import/AustraliaAngus/"
+          },
+          {
+            "path": "/import/AustraliaWagyu/"
+          },
+          {
+            "path": "/import/NewZealandAngus/"
+          },
+          {
+            "path": "/import/NewZealandWagyu/"
+          },
+          {
+            "path": "/import/RussiaBlackAngus/"
+          },
+          {
+            "path": "/import/conf/"
+          },
+          {
+            "path": "/import/"
           }
         ]
       }

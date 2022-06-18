@@ -11,8 +11,8 @@ const Introduction = styled.div`
     margin-top: 60px;
 
     img.a {
-        height: 400px;
-        margin-left: 250px;
+        height: 300px;
+        margin-left: 50px;
         margin-bottom: 50px;
     }
 
@@ -75,25 +75,25 @@ const SiderBarItems = styled(Link)`
     }
 `;
 
-const activeName = "澳大利亚和牛";
+const activeName = "新西兰安格斯";
 
 const ImportPage = () => {
   return (
     <Layout>
       <Introduction>
-        <img src={require("../../images/import/aus.png").default} alt="" className={"a"}/>
-        <img src={require("../../images/import/ausWagyu/01.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/02.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/03.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/04.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/05.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/06.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/07.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/08.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/09.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/10.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/11.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/12.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/NZ.png").default} alt="" className={"a"}/>
+        <img src={require("../../images/import/nzAngus/01.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/nzAngus/02.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/nzAngus/03.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/nzAngus/04.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/nzAngus/05.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/nzAngus/06.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/nzAngus/07.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/nzAngus/08.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/nzAngus/09.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/nzAngus/10.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/nzAngus/11.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/nzAngus/12.jpg").default} alt="" className={"b"}/>
       </Introduction>
       <Sidebar>
         {sideBarCfg.map(({img, cnText, enText, linkTo}) => {

@@ -75,25 +75,25 @@ const SiderBarItems = styled(Link)`
     }
 `;
 
-const activeName = "澳大利亚和牛";
+const activeName = "澳大利亚安格斯";
 
-const ImportPage = () => {
+const Index = () => {
   return (
     <Layout>
       <Introduction>
         <img src={require("../../images/import/aus.png").default} alt="" className={"a"}/>
-        <img src={require("../../images/import/ausWagyu/01.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/02.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/03.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/04.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/05.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/06.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/07.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/08.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/09.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/10.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/11.jpg").default} alt="" className={"b"}/>
-        <img src={require("../../images/import/ausWagyu/12.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/ausAngus/01.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/ausAngus/02.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/ausAngus/03.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/ausAngus/04.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/ausAngus/05.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/ausAngus/06.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/ausAngus/07.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/ausAngus/08.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/ausAngus/09.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/ausAngus/10.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/ausAngus/11.jpg").default} alt="" className={"b"}/>
+        <img src={require("../../images/import/ausAngus/12.jpg").default} alt="" className={"b"}/>
       </Introduction>
       <Sidebar>
         {sideBarCfg.map(({img, cnText, enText, linkTo}) => {
@@ -109,4 +109,4 @@ const ImportPage = () => {
   );
 };
 
-export default ImportPage;
+export default Index;
