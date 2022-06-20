@@ -28,21 +28,27 @@ export const navItems = [
 
 export const footerItems = [
   {
+    key: "shanghai",
+    label: "迪立希富德贸易（上海）有限公司",
+    phone: "021-33625770（朱先生）",
+    address: "上海市闵行区曲吴路589号6栋105",
+  },
+  {
     key: "beijing",
     label: "迪立希富德贸易（北京）有限公司",
-    phone: "139 1083 9361（郑先生）",
+    phone: "13910839361（郑先生）",
     address: "北京市丰台区南顶路6号院34号楼407",
   },
   {
     key: "shenzhen",
     label: "深圳迪立希富德贸易有限公司",
-    phone: "191 2953 3395（林先生）",
+    phone: "19129533395（林先生）",
     address: "深圳市福田区下梅林二街颂德国际909",
   },
   {
     key: "chengdu",
     label: "成都牛哞贸易有限公司",
-    phone: "186 8386 0064（张先生）",
+    phone: "18683860064（张先生）",
     address: "成都市双流区海洋路109号",
   },
 ];

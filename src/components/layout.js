@@ -147,7 +147,7 @@ const FooterListItem = ({ label, phone, address }) => {
   return (
     <dd>
       <ul>
-        <li>{label}</li>
+        {/*<li>{label}</li>*/}
         <li>电话：{phone}</li>
         <li>地址：{address}</li>
       </ul>

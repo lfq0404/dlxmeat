@@ -152,16 +152,16 @@ const IndexCarousel = () => {
           <StaticImage
             src="../images/banner/05.jpg"
             alt="banner"
-            style={{ height: "100%" }}
+            style={{height: "100%"}}
           />
         </InnerItem>
       </Inner>
-      <PrevButton onClick={handlePrev} />
-      <NextButton onClick={handleNext} />
-      <QuickWrap>
-        <Link to="/domestic">国产肉类</Link>
-        <Link to="/import">进口肉类</Link>
-      </QuickWrap>
+      {/*<PrevButton onClick={handlePrev} />*/}
+      {/*<NextButton onClick={handleNext} />*/}
+      {/*<QuickWrap>*/}
+      {/*  <Link to="/domestic">国产肉类</Link>*/}
+      {/*  <Link to="/import">进口肉类</Link>*/}
+      {/*</QuickWrap>*/}
     </Container>
   );
 };
